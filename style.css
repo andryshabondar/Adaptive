@@ -1,0 +1,1035 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Kanit-Light";
+    src: url(./fonts/Kanit-Light.ttf);
+}
+
+@font-face {
+    font-family: "Kanit-Medium";
+    src: url(./fonts/Kanit-Medium.ttf);
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.dropdown {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+.dropbtn {
+    background: url(./images/Group%204.png) no-repeat;
+    padding: 14px;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 1px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 21px;
+    background-color: #fff;
+    width: 344px;
+    height: 359px;
+    -webkit-box-shadow: 0px 4px 22px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 22px 0px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 22px 0px 0px 70px;
+    font-family: "Kanit-Medium";
+    font-size: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.dropbtn:hover {
+    background: url(./images/x.png) no-repeat;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.blackman {
+    width: 100%;
+    height: 570px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.blackimg {
+    background: url(./images/philip-martin-5aGUyCW_PJw-unsplash.png) no-repeat;
+    width: 50%;
+    background-size: 100%;
+    height: 570px;
+}
+
+.black {
+    background: url(./images/Rectangle.png) no-repeat;
+    width: 50%;
+    background-size: 100%;
+    height: 570px;
+    font-family: "Kanit-Medium";
+    color: white;
+    position: relative;
+}
+
+.d10 {
+    position: absolute;
+    left: 15%;
+    top: 107px;
+    font-size: 14px;
+    letter-spacing: 7px;
+}
+
+.lifestyle {
+    position: absolute;
+    right: 15%;
+    top: 107px;
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+}
+
+.atvero1 {
+    position: absolute;
+    left: 15%;
+    top: 197px;
+    font-size: 28px;
+}
+
+.verotext {
+    position: absolute;
+    font-size: 14px;
+    top: 268px;
+    left: 15%;
+    right: 109px;
+    font-family: "Kanit-Light";
+}
+
+.readmore {
+    position: absolute;
+    width: 198px;
+    height: 55px;
+    top: 364px;
+    left: 15%;
+    background: black;
+    color: white;
+    border: 1px solid #FFFFFF;
+    font-size: 12px;
+    font-family: "Kanit-Medium";
+    display: block;
+    cursor: pointer;
+}
+
+main {
+    position: relative;
+    top: 60px;
+    width: 1141px;
+    margin: 0 auto;
+}
+
+.featured {
+    position: absolute;
+    width: 100%;
+}
+
+.featu {
+    font-family: "Kanit-Medium";
+    font-size: 18px;
+    line-height: 27px;
+    color: #1F1F1D;
+    padding: 0 0 35px 0;
+}
+
+.imgfeatu1 {
+    background: url(./images/featered1.png) no-repeat;
+    width: 49%;
+    height: 368px;
+    background-size: 100%;
+    position: absolute;
+    float: left;
+    background-size: 100%;
+}
+
+.imgfeatu2 {
+    background: url(./images/featured2.png) no-repeat;
+    width: 49%;
+    right: 0;
+    height: 368px;
+    background-size: 100%;
+    position: absolute;
+    background-size: 100%;
+}
+
+.d10-1 {
+    font-family: "Kanit-Medium";
+    font-size: 12px;
+    letter-spacing: 6px;
+    position: absolute;
+    top: 400px;
+}
+
+.lifestyle1 {
+    font-family: "Kanit-Medium";
+    font-size: 12px;
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+    position: absolute;
+    top: 400px;
+    right: 0;
+}
+
+.lorem1 {
+    font-family: "Kanit-Medium";
+    font-size: 24px;
+    color: #1F1F1D;
+    position: absolute;
+    top: 450px;
+}
+
+.ut1 {
+    font-family: "Kanit-Light";
+    font-size: 18px;
+    color: #1F1F1D;
+    position: absolute;
+    top: 550px;
+}
+
+.imgblock {
+    position: relative;
+    top: 684px;
+}
+
+.img-1 {
+    background: url(./images/img-1.png) no-repeat;
+    width: 32%;
+    height: 240px;
+    float: left;
+    margin-right: 2%;
+    background-size: 100%;
+}
+
+.img-2 {
+    background: url(./images/img-2.png) no-repeat;
+    width: 32%;
+    height: 240px;
+    float: left;
+    margin-right: 2%;
+    background-size: 100%;
+}
+
+.img-3 {
+    background: url(./images/img-3.png) no-repeat;
+    width: 32%;
+    height: 240px;
+    float: left;
+    background-size: 100%;
+}
+
+.d10-2 {
+    font-family: "Kanit-Medium";
+    font-size: 12px;
+    letter-spacing: 6px;
+    position: absolute;
+    top: 258px;
+    color: #1F1F1D;
+}
+
+.lifestyle2 {
+    font-family: "Kanit-Medium";
+    font-size: 12px;
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+    position: relative;
+    top: 258px;
+    left: 308px;
+    width: 10px;
+}
+
+.atvero2 {
+    font-family: "Kanit-Medium";
+    font-size: 18px;
+    color: #1F1F1D;
+    position: absolute;
+    top: 298px;
+    width: 30%
+}
+
+.seeall {
+    position: relative;
+    width: 238px;
+    height: 42px;
+    top: 146px;
+    margin: 0 auto;
+    background: #303030;
+    color: white;
+    font-size: 14px;
+    font-family: "Kanit-Medium";
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cupissue {
+    width: 100%;
+    position: relative;
+    top: 1214px;
+}
+
+.img-cup {
+    background: url(./images/photo-1520781359717-3eb98461c9fe.png) no-repeat;
+    width: 50%;
+    background-size: 100%;
+    height: 360px;
+    float: left;
+}
+
+.imgissue {
+    background: url(./images/photo-1520781359717-3eb98461c9fe%20copy%202.png) no-repeat;
+    width: 50%;
+    background-size: 100%;
+    height: 360px;
+    font-family: "Kanit-Medium";
+    color: white;
+    float: left;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.issue {
+    position: absolute;
+    font-family: "Kanit-Medium";
+    font-size: 34px;
+    color: #FFFFFF;
+    top: 132px;
+}
+
+.subscribenow {
+    position: absolute;
+    width: 198px;
+    height: 42px;
+    top: 195px;
+    margin: 0 auto;
+    background: black;
+    color: white;
+    border: 1px solid #FFFFFF;
+    font-size: 14px;
+    font-family: "Kanit-Medium";
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.imgblock2 {
+    position: relative;
+    top: 1281px;
+}
+
+.img-5 {
+    background: url(./images/img-5.png) no-repeat;
+    width: 32%;
+    height: 240px;
+    float: left;
+    margin-right: 2%;
+    background-size: 100%;
+}
+
+.img-6 {
+    background: url(./images/img-6.png) no-repeat;
+    width: 32%;
+    height: 240px;
+    float: left;
+    margin-right: 2%;
+    background-size: 100%;
+}
+
+.img-7 {
+    background: url(./images/img-7.png) no-repeat;
+    width: 32%;
+    height: 240px;
+    float: left;
+    background-size: 100%;
+}
+
+.d10-3 {
+    font-family: "Kanit-Medium";
+    font-size: 12px;
+    letter-spacing: 6px;
+    position: relative;
+    top: 248px;
+    color: #1F1F1D;
+}
+
+.lifestyle3 {
+    font-family: "Kanit-Medium";
+    font-size: 12px;
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+    position: relative;
+    top: 230px;
+    left: 300px;
+    width: 10px;
+}
+
+.atvero3 {
+    font-family: "Kanit-Medium";
+    font-size: 18px;
+    color: #1F1F1D;
+    position: relative;
+    top: 260px;
+}
+
+.seeall2 {
+    position: relative;
+    width: 238px;
+    height: 42px;
+    top: 120px;
+    margin: 0 auto;
+    background: #303030;
+    color: white;
+    font-size: 14px;
+    font-family: "Kanit-Medium";
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.imgblock3 {
+    position: relative;
+    top: 1432px;
+}
+
+.img-8 {
+    background: url(./images/img-8.jpg) no-repeat;
+    width: 32%;
+    height: 240px;
+    float: left;
+    margin-right: 2%;
+    background-size: 100%;
+}
+
+.img-9 {
+    background: url(./images/img-9.jpg) no-repeat;
+    width: 32%;
+    height: 240px;
+    float: left;
+    margin-right: 2%;
+    background-size: 100%;
+}
+
+.img-10 {
+    background: url(./images/img-10.jpg) no-repeat;
+    width: 32%;
+    height: 240px;
+    float: left;
+    background-size: 100%;
+}
+
+.news1 {
+    font-family: "Kanit-Medium";
+    font-size: 12px;
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+    position: relative;
+    top: 230px;
+    left: 333px;
+    width: 1px;
+}
+
+.seeall3 {
+    position: relative;
+    width: 238px;
+    height: 42px;
+    top: 113px;
+    margin: 0 auto;
+    background: #303030;
+    color: white;
+    font-size: 14px;
+    font-family: "Kanit-Medium";
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+footer {
+    background: black;
+    width: 100%;
+    height: 163px;
+    position: relative;
+    top: 1705px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.designed {
+    position: absolute;
+    font-family: "Kanit-Light";
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+    bottom: 0;
+
+}
+
+@media screen and (max-width: 1240px) {
+    .blackman {
+        height: 500px;
+    }
+
+    .d10 {
+        top: 72px;
+    }
+
+    .lifestyle {
+        top: 72px;
+    }
+
+    .atvero1 {
+        top: 110px;
+    }
+
+    .verotext {
+        top: 157px;
+    }
+
+    .readmore {
+        top: 242px;
+    }
+
+    main {
+        top: 0px;
+        width: 941px;
+    }
+
+    .featu {
+        padding: 0 0 25px 0;
+    }
+
+    .d10-1 {
+        top: 350px;
+    }
+
+    .lifestyle1 {
+        top: 350px;
+    }
+
+    .lorem1 {
+        top: 400px;
+    }
+
+    .ut1 {
+        top: 500px;
+    }
+
+    .imgblock {
+        top: 660px;
+    }
+
+    .d10-2 {
+        top: 215px;
+    }
+
+    .lifestyle2 {
+        top: 215px;
+        left: 243px;
+    }
+
+    .atvero2 {
+        top: 245px;
+    }
+
+    .seeall {
+        top: 116px;
+    }
+
+    .cupissue {
+        top: 1146px;
+    }
+
+    .issue {
+        top: 100px;
+    }
+
+    .subscribenow {
+        top: 160px;
+    }
+
+    .imgblock2 {
+        top: 1141px;
+    }
+
+    .d10-3 {
+        top: 216px;
+    }
+
+    .lifestyle3 {
+        top: 198px;
+        left: 235px;
+    }
+
+    .atvero3 {
+        top: 220px;
+    }
+
+    .seeall2 {
+        top: 128px;
+    }
+
+    .imgblock3 {
+        top: 1327px;
+    }
+
+    .news1 {
+        top: 197px;
+        left: 270px;
+    }
+
+    .seeall3 {
+        top: 126px;
+    }
+
+    footer {
+        top: 1540px;
+    }
+
+}
+
+@media screen and (max-width: 960px) {
+
+    header {
+        height: 65px;
+    }
+
+    .dropdown {
+        left: 23px;
+        top: 23px;
+    }
+
+    .suffix {
+        width: 105px;
+        height: 20px;
+    }
+
+    .blackman {
+        height: 400px;
+    }
+
+    main {
+        width: 720px;
+    }
+
+    .lifestyle {
+        z-index: -1;
+    }
+
+    .atvero1 {
+        font-size: 18px;
+    }
+
+    .verotext {
+        font-size: 12px;
+    }
+
+    .readmore {
+        height: 40px;
+    }
+
+    .d10-1 {
+        top: 250px;
+    }
+
+    .lifestyle1 {
+        top: 250px;
+    }
+
+    .lorem1 {
+        top: 278px;
+        font-size: 18px;
+    }
+
+    .ut1 {
+        top: 356px;
+        font-size: 14px;
+    }
+
+    .imgblock {
+        top: 470px;
+    }
+
+    .d10-2 {
+        top: 170px;
+    }
+
+    .lifestyle2 {
+        top: 170px;
+        left: 173px;
+    }
+
+    .atvero2 {
+        top: 192px;
+        font-size: 16px;
+    }
+
+    .seeall {
+        top: 48px;
+    }
+
+    .cupissue {
+        top: 888px;
+    }
+
+    .issue {
+        top: 75px;
+        font-size: 18px;
+    }
+
+    .subscribenow {
+        top: 115px;
+    }
+
+    .imgblock2 {
+        top: 806px;
+    }
+
+    .d10-3 {
+        top: 168px;
+    }
+
+    .lifestyle3 {
+        top: 148px;
+        left: 164px;
+    }
+
+    .atvero3 {
+        top: 163px;
+        font-size: 16px;
+    }
+
+    .seeall2 {
+        top: 58px;
+    }
+
+    .imgblock3 {
+        top: 914px;
+    }
+
+    .news1 {
+        top: 150px;
+        left: 200px;
+    }
+
+    .seeall3 {
+        top: 53px;
+    }
+
+    footer {
+        top: 1038px;
+    }
+
+}
+
+@media screen and (max-width: 740px) {
+    body {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .blackimg {
+        width: 100%;
+        height: 253px;
+    }
+
+    .black {
+        width: 100%;
+        height: 246px;
+    }
+
+    .d10 {
+        left: 12px;
+        top: 15px;
+    }
+
+    .atvero1 {
+        left: 12px;
+        top: 53px;
+    }
+
+    .verotext {
+        top: 100px;
+        left: 12px;
+    }
+
+    .readmore {
+        top: 174px;
+        left: 12px;
+    }
+
+    main {
+        width: 295px;
+        top: 133px;
+    }
+
+    .featu {
+        padding: 0 0 20px 0;
+    }
+
+    .imgfeatu1 {
+        width: 100%;
+        height: 195px;
+        position: relative;
+        height: 432px;
+        float: none;
+    }
+
+    .lifestyle1 {
+        display: none;
+    }
+
+    .imgfeatu2 {
+        width: 100%;
+        position: relative;
+        height: 432px;
+        float: none;
+    }
+
+    .imgblock {
+        top: 12px;
+
+    }
+
+    .img-1 {
+        width: 100%;
+        float: none;
+        height: 288px;
+    }
+
+    .d10-2 {
+        top: 207px;
+        position: relative;
+    }
+
+    .lifestyle2 {
+        top: 189px;
+        left: 239px;
+    }
+
+    .atvero2 {
+        top: 199px;
+        width: 100%;
+        position: relative;
+    }
+
+
+    .img-2 {
+        width: 100%;
+        float: none;
+        height: 288px;
+    }
+
+    .img-3 {
+        width: 100%;
+        float: none;
+        height: 288px;
+    }
+
+    .seeall {
+        top: 4px;
+    }
+
+    .cupissue {
+        top: 1858px;
+    }
+
+    .img-cup {
+        height: 186px;
+        width: 100%;
+    }
+
+    .imgissue {
+        width: 100%;
+        height: 175px;
+        float: none;
+        height: 175px;
+    }
+
+    .issue {
+        top: 45px;
+        font-size: 18px;
+    }
+
+    .subscribenow {
+        top: 94px;
+    }
+
+    .imgblock2 {
+        top: 1900px;
+    }
+
+    .img-5 {
+        width: 100%;
+        float: none;
+        margin-right: 0%;
+        height: 283px;
+    }
+
+    .img-6 {
+        width: 100%;
+        float: none;
+        margin-right: 0%;
+        height: 283px;
+    }
+
+    .img-7 {
+        width: 100%;
+        float: none;
+        height: 283px;
+    }
+
+    .d10-3 {
+        top: 208px;
+    }
+
+    .lifestyle3 {
+        top: 189px;
+        left: 230px;
+    }
+
+    .atvero3 {
+        top: 202px;
+        font-size: 16px;
+    }
+
+    .seeall2 {
+        top: 10px;
+    }
+
+    .imgblock3 {
+        top: 1951px;
+    }
+
+    .img-8 {
+        width: 100%;
+        float: none;
+        margin-right: 0%;
+        height: 283px;
+    }
+
+    .img-9 {
+        width: 100%;
+        float: none;
+        margin-right: 0%;
+        height: 283px;
+    }
+
+    .img-10 {
+        width: 100%;
+        float: none;
+        height: 283px;
+    }
+
+    .news1 {
+        top: 189px;
+        left: 264px;
+    }
+
+    .seeall3 {
+        top: 10px;
+    }
+
+    footer {
+        top: 2137px;
+    }
+}
